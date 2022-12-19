@@ -324,7 +324,7 @@ return`Contoh penggunaan : ${prefix + command} ${surah}|${ayat}\nUsage: ${prefix
 }
 
 exports.JwbErr = () => {
-    return `❌ Jawaban Salah`
+    return `❌ Jawaban Salah Hahahaha`
 }
 
 exports.JwbTrue = (tebak, exp) => {
@@ -505,7 +505,7 @@ exports.AnonSearch = () => {
     return `🔎 Mohon tunggu sedang mencari teman chat`
 }
 exports.NoAnon = () => {
-    return `⚠️ Kamu belum pernah memulai chat!`
+    return `⚠️ Kamu belum pernah memulai chat! Makannya Chattan Dulu Ama Bot Nya`
 }
 exports.NoAudRep = (prefix, command) => {
     return `Balas audio yang ingin diubah dengan caption *${prefix + command}*`
@@ -632,17 +632,17 @@ exports.private = () =>{
 	return`Fitur hanya bisa di gunakan di private chat`
 	}
 exports.wait = () => {
-    return `⏳ Mohon tunggu sebentar`
+    return `Sabarr Bangg, Lagi Di Proses Nihh`
 }
 exports.ok = () => {
     return `✅ Done.`
 }
 
 exports.err = () => {
-    return `⚠️ Fitur Sedang Error`
+    return `⚠️ Fitur Sedang Error, Tunggu Perbaikan`
 }
 exports.erorLink = () => {
-    return `⚠️ Link nya error`
+    return `⚠️ Link nya error, Ngirim Link Kok Error:v`
 }
 exports.media = () => {
     return `Silahkan pilih media yang ingin kamu download`
